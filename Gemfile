@@ -27,11 +27,10 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 gem 'bootstrap', '~> 4.0.0.alpha6'
-gem 'bootstrap-glyphicons', '~> 0.0.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'jquery-easing-rails', '~> 0.0.2'
-gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
-
+gem 'font-awesome-rails'
+gem 'mail_form', '~> 1.7'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
