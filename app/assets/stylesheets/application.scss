@@ -602,3 +602,59 @@ body {
   background-repeat: no-repeat;
 
 }
+
+#buying {
+  width: 100%;
+  height: 100vh;
+  background: image-url("desert-home.jpeg"), #7b4397;
+  /* fallback for old browsers */
+  background: image-url("desert-home.jpeg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: image-url("desert-home.jpeg"), linear-gradient(to left, #7b4397, #dc2430);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#renting {
+  width: 100%;
+  height: 100vh;
+  background: image-url("apartments.jpeg"), #7b4397;
+  /* fallback for old browsers */
+  background: image-url("apartments.jpeg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: image-url("apartments.jpeg"), linear-gradient(to left, #7b4397, #dc2430);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#selling {
+  width: 100%;
+  height: 100vh;
+  background: image-url("cottage.jpeg"), #7b4397;
+  /* fallback for old browsers */
+  background: image-url("cottage.jpeg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: image-url("cottage.jpeg"), linear-gradient(to left, #7b4397, #dc2430);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#referrals {
+  width: 100%;
+  height: 100vh;
+  background: image-url("england.jpeg"), #7b4397;
+  /* fallback for old browsers */
+  background: image-url("england.jpeg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: image-url("england.jpeg"), linear-gradient(to left, #7b4397, #dc2430);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
