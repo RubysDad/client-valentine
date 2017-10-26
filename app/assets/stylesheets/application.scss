@@ -20,6 +20,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+
 }
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
@@ -146,6 +147,7 @@ p {
     color: #fdcc52;
   }
 }
+
 header {
 
   width: 100%;
@@ -175,6 +177,8 @@ header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 30px;
+  color: #FFFFFF;
+  
 }
 header .header-content .header-content-inner .list-badges {
   margin-bottom: 25px;
@@ -297,7 +301,7 @@ section.download .badges .badge-link img {
   }
 }
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 section.features .section-heading h2 {
   margin-top: 0;
@@ -548,6 +552,10 @@ body {
   background-color: $orange;
 }
 
+.bg-blue {
+  background-color: #F0FFFF;
+}
+
 .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -603,9 +611,9 @@ body {
 
 }
 
-#buying {
+.buying-thumb {
   width: 100%;
-  height: 100vh;
+  height: 330px;
   background: image-url("desert-home.jpeg"), #7b4397;
   /* fallback for old browsers */
   background: image-url("desert-home.jpeg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
@@ -615,11 +623,13 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+
+
 }
 
-#renting {
+.renting-thumb {
   width: 100%;
-  height: 100vh;
+  height: 330px;
   background: image-url("apartments.jpeg"), #7b4397;
   /* fallback for old browsers */
   background: image-url("apartments.jpeg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
@@ -631,9 +641,9 @@ body {
   background-repeat: no-repeat;
 }
 
-#selling {
+.selling-thumb {
   width: 100%;
-  height: 100vh;
+  height: 330px;
   background: image-url("cottage.jpeg"), #7b4397;
   /* fallback for old browsers */
   background: image-url("cottage.jpeg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
@@ -645,9 +655,9 @@ body {
   background-repeat: no-repeat;
 }
 
-#referrals {
+.referrals-thumb {
   width: 100%;
-  height: 100vh;
+  height: 330px;
   background: image-url("england.jpeg"), #7b4397;
   /* fallback for old browsers */
   background: image-url("england.jpeg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
@@ -657,4 +667,24 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.text-block {
+  position: relative;
+	max-width: 315px;
+	margin: 0 auto;
+	margin-top: 55px;
+	margin-bottom: 0px;
+}
+
+.buying-content {
+  
+  display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.text-right {
+  float: right;
 }
