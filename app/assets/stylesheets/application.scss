@@ -60,7 +60,7 @@ p {
   margin-bottom: 20px;
 }
 .navbar-default {
-  background-color: white;
+  background-color: transparent;
   border-color: rgba(34, 34, 34, 0.05);
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -114,6 +114,7 @@ p {
   }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
+    float: left;
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
@@ -437,8 +438,8 @@ section.cta .overlay {
 .slogan-content-inner {
 
 }
-footer {
-  background-color: #222222;
+#footer {
+  background-color: #EEFFFF;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
@@ -575,9 +576,9 @@ body {
   display: none;
 }
 
-.contact-us {
+#form {
     padding: 50px 0;
-    background-color: #5089D6;
+    background-color: #F8F9FB;
 }
 
 #callout {
