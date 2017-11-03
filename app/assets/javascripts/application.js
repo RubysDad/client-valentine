@@ -17,6 +17,7 @@
 //= require turbolinks
 //= require nav
 //= require fade-scroll
+//= require skrollr
 //= require_tree .
 //= require bootstrap
 

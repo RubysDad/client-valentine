@@ -178,11 +178,17 @@ header .header-content .header-content-inner {
 }
 header .header-content .header-content-inner h1 {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   font-size: 30px;
-  color: #FFFFFF;
+  color: #FFF;
+  position: relative;
+  vertical-align: top;
+  top: -150px;
+  margin-left: 140px;
+
   
 }
+
 header .header-content .header-content-inner .list-badges {
   margin-bottom: 25px;
 }
@@ -651,4 +657,8 @@ body {
 
 .text-right {
   float: right;
+}
+
+.logos {
+
 }
