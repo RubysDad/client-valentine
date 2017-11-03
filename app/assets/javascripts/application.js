@@ -16,6 +16,7 @@
 //= require popper
 //= require turbolinks
 //= require nav
+//= require fade-scroll
 //= require_tree .
 //= require bootstrap
 

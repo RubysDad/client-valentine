@@ -3,6 +3,11 @@
 
 $orange: #FF9500;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
@@ -68,7 +73,7 @@ p {
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #7F97C3;
+    background: #225;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
