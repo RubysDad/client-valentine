@@ -31,7 +31,9 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'jquery-easing-rails', '~> 0.0.2'
 gem 'font-awesome-rails'
 gem 'mail_form', '~> 1.7'
-gem 'skrollr-rails', '~> 0.6.29'
+gem 'imagesLoaded_rails', '~> 4.1'
+
+
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

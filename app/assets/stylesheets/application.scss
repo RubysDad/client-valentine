@@ -241,35 +241,7 @@ section {
 section h2 {
   font-size: 50px;
 }
-section.download {
-  padding: 150px 0;
-  position: relative;
-}
-section.download h2 {
-  margin-top: 0;
-  font-size: 50px;
-}
-section.download .badges .badge-link {
-  display: block;
-  margin-bottom: 25px;
-}
-section.download .badges .badge-link:last-child {
-  margin-bottom: 0;
-}
-section.download .badges .badge-link img {
-  height: 60px;
-}
-@media (min-width: 768px) {
-  section.download .badges .badge-link {
-    display: inline-block;
-    margin-bottom: 0;
-  }
-}
-@media (min-width: 768px) {
-  section.download h2 {
-    font-size: 70px;
-  }
-}
+
 section.features .section-heading {
   margin-bottom: 0px;
 }
@@ -279,19 +251,7 @@ section.features .section-heading h2 {
 section.features .section-heading p {
   margin-bottom: 0;
 }
-section.features .device-container,
-section.features .feature-item {
-  max-width: 300px;
-  margin: 0 auto;
-}
-section.features .device-container {
-  margin-bottom: 100px;
-}
-@media (min-width: 992px) {
-  section.features .device-container {
-    margin-bottom: 0;
-  }
-}
+
 section.features .feature-item {
   text-align: center;
   margin-bottom: 100px;
@@ -311,40 +271,7 @@ section.features .feature-item i {
     max-width: none;
   }
 }
-section.cta {
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-image: url('/assets/new_age/bg-tri.jpg');
-  padding: 250px 0;
-}
-section.cta .cta-content {
-  position: relative;
-  z-index: 1;
-}
-section.cta .cta-content h2 {
-  margin-top: 0;
-  margin-bottom: 25px;
-  color: white;
-  max-width: 450px;
-  font-size: 50px;
-}
-@media (min-width: 768px) {
-  section.cta .cta-content h2 {
-    font-size: 80px;
-  }
-}
-section.cta .overlay {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
 #about {
   text-align: center;
 }
@@ -496,24 +423,7 @@ footer ul li a.active {
   padding: 15px 45px;
   font-size: 11px;
 }
-::-moz-selection {
-  color: white;
-  text-shadow: none;
-  background: #222222;
-}
-::selection {
-  color: white;
-  text-shadow: none;
-  background: #222222;
-}
-img::selection {
-  color: white;
-  background: transparent;
-}
-img::-moz-selection {
-  color: white;
-  background: transparent;
-}
+
 body {
   webkit-tap-highlight-color: #222222;
 }
@@ -663,7 +573,64 @@ body {
 
 }
 
-#slide-2 .bcg {background-image:url("bg.jpg")}
+.bcg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.hsContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.hsContent {
+  max-width: 700px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+  .hsContent h2 {
+    color: #fff8de;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 5px;
+    font-size: 35px;
+    line-height: 38px;
+    margin-bottom: 12px;
+  }
+  .hsContent p {
+    width: 400px;
+    color: #b2b2b2;
+  }
+  .hsContent a {
+    color: #b2b2b2;
+    text-decoration: underline;
+  }
+#slide-1 {
+  background-image:url('bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+#slide-1 .hsContent {
+  bottom: 200px;
+  top: auto;
+}
+
+#slide-2 {
+  background-image:url("slogan-paper.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
 #slide-2 .hsContent {
   margin-left: -450px;
   top: auto;
@@ -673,7 +640,31 @@ body {
   top: 70%;
 }
 
-#slide-4 .bcg {background-image:url("bg.jpg")}
+#slide-3 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+#slide-3 .inner {
+  padding: 100px;
+}
+
+#slide-3 .content {
+  padding: 20px;
+ 
+  color: black;
+}
+
+#slide-4 {
+  background-image:url("kitchen.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
 #slide-4 .hsContent {
   margin-left: -450px;
   position: fixed;

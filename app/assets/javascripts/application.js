@@ -12,12 +12,13 @@
 //
 //= require jquery3
 //= require jquery_ujs
+//= require lib/skrollr
+//= require imagesloaded
+//= require _main
 //= require jquery.easing
 //= require popper
 //= require turbolinks
 //= require nav
-//= require fade-scroll
-//= require skrollr
 //= require_tree .
 //= require bootstrap
 
