@@ -1,5 +1,49 @@
 <main>
-    
+    <a id="menu-toggle" href="#" class="btn btn-light btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-left toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick = $("#menu-close").click(); >Julia Valentine</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#features" onclick = $("#menu-close").click(); >Services</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >The Team</a>
+            </li>
+            <li>
+                <a href="#form" onclick = $("#menu-close").click(); >Email Us</a>
+            </li>        
+            <li>
+                <a href="#footer" onclick = $("#menu-close").click(); >Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+      
+    <div class="container header-title">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="header-content">
+            <div class="header-content-inner">
+              <div class="container header-title">
+                <div class="row justify-content-center">
+                  <h1 class="text-center text-header">Julia Valentine Arizona Properties</h1>
+                  <br>
+                  <p><%= image_tag "logo-full.png", width: 100, class: "text-right-cb" %><p></p>
+                  <br>
+                  <p><%= image_tag "equal-housing-op-logo.jpg", width: 80, class: "text-right-eh" %></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <section id="slide-1" class="homeSlide">
         <div class="bcg"
             data-center="background-position: 50% 0px;"
@@ -8,131 +52,249 @@
         >
             <div class="hsContainer">
                 <div class="hsContent"
-                    data-center="bottom: 200px; opacity: 1"
-                    data-top="bottom: 1200px; opacity: 0"
+                    data-center="opacity: 1"
+                    data-106-top="opacity: 0"
                     data-anchor-target="#slide-1 h2"
                 >
-                    <h2>Julia Valentine Arizona Properties</h2>
+                    <h2>Hello Arizona</h2>
                 </div>
             </div>
         </div>
     </section>
     
-    <section id="slide-2" class="homeSlide">
+    <section id="slide-2">
         <div class="bcg"
-            data-center="background-position: 50% 0px;"
-            data-top-bottom="background-position: 50% -100px;"
-            data-bottom-top="background-position: 50% 100px;"
+            data-0="background-color:rgb(1,27,59);"
+            data-top="background-color: (0,0,0);"
             data-anchor-target="#slide-2"
         >
             <div class="hsContainer">
-                <div class="hsContent"
-                    data-center="opacity: 1"
-                    data-center-top="opacity: 0"
-                    data--100-bottom="opacity: 0;"
-                    data-anchor-target="#slide-2"
-                >
-                    <h2>We're not selling houses, we're selling <i>Happiness</i></h2>
+                <div class="hsContent">
+                    <h2 data-center="opacity: 1"
+                    data--200-bottom="opacity: 0"
+                    data-206-top="opacity: 1"
+                    data-106-top="opacity: 0"
+                    data-anchor-target="#slide-2 h2">Our services</h2>
+                    <p data-center="opacity: 1"
+                    data--200-bottom="opacity: 0"
+                    data-206-top="opacity: 1"
+                    data-106-top="opacity: 0"
+                    data-anchor-target="#slide-2 h2">Include...</p>
                 </div>
             </div>
         </div>
     </section>
     
-    <section id="slide-3"
-        data-center="background-position: 50% 0px;"
-        data-top-bottom="background-position: 50% -100px;"
-        data-bottom-top="background-position: 50% 100px;"
-    >
-        <div class="inner">
-            <div class="content">
-                <section id="about" class="bg-light">
-                    <div class="container ">
-                        <div class="row">
-                            <div class="col-lg-12 text-center">
-                                <h3>The Team</h3>
-                                <hr class="small">
-                                <br>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="portfolio-item">
-                                            <a href="https://www.coldwellbankerhomes.com/az/phoenix/agent/astria-julia-valentine/aid_43887/">
-                                                <%= image_tag "julia.jpg", width: 200, class: "rounded-circle" %>
-                                            </a>
-                                            <h3 class="about-item"><%= link_to "Julia Valentine", "https://www.coldwellbankerhomes.com/az/phoenix/agent/astria-julia-valentine/aid_43887/" %></h3>
-                                            <ul class="list-inline list-social">
-                                                <li>
-                                                    <a href="https://www.linkedin.com/in/mark-morales-132961138/">
-                                                        <i><%=fa_icon "linkedin" %></i>
-                                                    </a>
-                                                <li class="">
-                                                    <a href="#">    
-                                                        <i><%= fa_icon "facebook" %></i>
-                                                    </a>        
-                                                </li>
-                                                <li class="">
-                                                    <a href="#">    
-                                                        <i><%=fa_icon "instagram" %></i>
-                                                    </a>        
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="portfolio-item">
-                                            <a href="https://www.coldwellbankerhomes.com/az/phoenix/agent/tabitha-valentine/aid_35493/">
-                                                <%= image_tag "tabitha.jpg", width: 210, class: "rounded-circle" %>
-                                            </a>
-                                            <h3 class="about-item"><%= link_to "Tabitha Valentine Morales", "https://www.coldwellbankerhomes.com/az/phoenix/agent/tabitha-valentine/aid_35493/" %></h3>
-                                            <ul class="list-inline list-social">
-                                                <li>
-                                                    <a href="https://www.linkedin.com/in/mark-morales-132961138/">
-                                                        <i><%=fa_icon "linkedin" %></i>
-                                                    </a>
-                                                <li class="">
-                                                    <a href="#">    
-                                                        <i><%= fa_icon "facebook" %></i>
-                                                    </a>        
-                                                </li>
-                                                <li class="">
-                                                    <a href="#">    
-                                                        <i><%=fa_icon "instagram" %></i>
-                                                    </a>        
-                                                </li>
-                                            </ul>
-                                            <br><p>We are Julia A. Valentine and Tabitha Valentine Morales, a Coldwell Banker Residential Realty team located in choice Fountain Hills, AZ (#fabfountainhills).
-                                            After years of living abroad, including Europe, Australia, Costa Rica and Panama, we made Arizona our home in 2005.We know why Phoenix was voted the 2015 # 1 retirement location in America ! "Good weather and a high well-being score" is just part of the story. 
-                                            Come see why people of all ages find the Arizona lifestyle irresistible!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.row (nested) -->
-                            </div>
-                            <!-- /.col-lg-10 -->
-                        </div>
-                        <!-- /.row -->
-                    </div>
-                    <!-- /.container -->
-                </section>
+    <section id="slide-3" class="homeSlide">
+        <div class="bcg"
+            data-center="background-position: 0px 50%;"
+            data-bottom-top="background-position: 0px 40%;"
+            data-top-bottom="background-position: -40px 50%;"
+            data-anchor-target="#slide-3"
+        >
+            <div class="hsContainer">
+                <div class="hsContent">
+                    <div class="plaxEl"
+                    data-106-top="opacity: 0"
+                    data--30p-top="opacity: 1;"
+                    data--60-top="opacity: 0;"
+                    data-bottom="opacity: 1; position: fixed; top: 206px; width: 100%; left: 0;"
+                    data-anchor-target="#slide-3"
+                >
+                    <h2>We're not selling houses, we're selling <i>Happiness</i></h2>
+                    
+                </div>
             </div>
         </div>
     </section>
     
-    <section id="slide-4" class="homeSlide">
+    <section id="slide-4" class="homeSlide homeSlideTall">
         <div class="bcg"
             data-center="background-position: 50% 0px;"
-            data-top-bottom="background-position: 50% -100px;"
             data-bottom-top="background-position: 50% 100px;"
+            data-top-bottom="background-position: 50% -100px;"
             data-anchor-target="#slide-4"
+        >
+            <div class="curtainContainer">
+                <div class="curtain"
+                    data-bottom-top="opacity: 0" 
+                    data-106-top="height: 1%; opacity: 0; top: -10%;"
+                    data-center="height: 100%; opacity: 0.5; top: 0%"
+                    data-anchor-target="#slide-4">
+                </div>
+                
+                <div class="copy" 
+                    data-bottom-top="opacity: 0" 
+                    data--100-bottom="opacity: 0"
+                    data--280-bottom="opacity: 1;"
+                    data-280-top="opacity: 1;"
+                    data-106-top="opacity: 0;"
+                    data-anchor-target="#slide-4 .copy"
+                >
+
+                    <div class="col-lg-12 text-center">
+                        <h3>The Team</h3>
+                        <hr class="small">
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="portfolio-item">
+                                    <a href="https://www.coldwellbankerhomes.com/az/phoenix/agent/astria-julia-valentine/aid_43887/">
+                                        <%= image_tag "julia.jpg", width: 200, class: "rounded-circle" %>
+                                    </a>
+                                    <h3 class="about-item"><%= link_to "Julia Valentine", "https://www.coldwellbankerhomes.com/az/phoenix/agent/astria-julia-valentine/aid_43887/" %></h3>
+                                    <ul class="list-inline list-social">
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/mark-morales-132961138/">
+                                                <i><%=fa_icon "linkedin" %></i>
+                                            </a>
+                                        <li class="">
+                                            <a href="#">    
+                                                <i><%= fa_icon "facebook" %></i>
+                                            </a>        
+                                        </li>
+                                        <li class="">
+                                            <a href="#">    
+                                                <i><%=fa_icon "instagram" %></i>
+                                            </a>        
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="portfolio-item">
+                                    <a href="https://www.coldwellbankerhomes.com/az/phoenix/agent/tabitha-valentine/aid_35493/">
+                                        <%= image_tag "tabitha.jpg", width: 210, class: "rounded-circle" %>
+                                    </a>
+                                    <h3 class="about-item"><%= link_to "Tabitha Valentine Morales", "https://www.coldwellbankerhomes.com/az/phoenix/agent/tabitha-valentine/aid_35493/" %></h3>
+                                    <ul class="list-inline list-social">
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/mark-morales-132961138/">
+                                                <i><%=fa_icon "linkedin" %></i>
+                                            </a>
+                                        <li class="">
+                                            <a href="#">    
+                                                <i><%= fa_icon "facebook" %></i>
+                                            </a>        
+                                        </li>
+                                        <li class="">
+                                            <a href="#">    
+                                                <i><%=fa_icon "instagram" %></i>
+                                            </a>        
+                                        </li>
+                                    </ul>
+                                    <br><p>We are Julia A. Valentine and Tabitha Valentine Morales, a Coldwell Banker Residential Realty team located in choice Fountain Hills, AZ (#fabfountainhills).
+                                    After years of living abroad, including Europe, Australia, Costa Rica and Panama, we made Arizona our home in 2005.We know why Phoenix was voted the 2015 # 1 retirement location in America ! "Good weather and a high well-being score" is just part of the story. 
+                                    Come see why people of all ages find the Arizona lifestyle irresistible!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    
+    <section id="slide-5" class="homeSlide homeSlideTall2">
+        <div class="bcg">
+            &nbsp;
+        </div>
+        <div class="bcg bcg2"
+            data-bottom-top="opacity: 0;"
+            data--33p-top="opacity: 0"
+            data--66p-top="opacity: 1;"
+            data-anchor-target="#slide-5"
         >
             <div class="hsContainer">
                 <div class="hsContent"
                     data-bottom-top="opacity: 0"
-                    data-25p-top="opacity: 0"
-                    data-top="opacity: 1"
-                    data-anchor-target="#slide-4"
+                    data-center="opacity: 1"
+                    data-anchor-target="#slide-5"
                 >
                     <h2>Contact Us!</h2>
                 </div>
+            </div>
+        </div>
+        <div class="bcg bcg3"
+            data-300-bottom="opacity: 0;"
+            data-100-bottom="opacity: 1;"
+            data-anchor-target="#slide-5"
+        >
+            <div class="hsContent"
+                data-100-bottom="opacity: 0;"
+                data-bottom="opacity: 1;"
+                data-anchor-target="#slide-5"
+            >
+                <section id="footer" class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <div class="media-wrap">
+                                    <%= image_tag "jvaz_logo.jpg", width: 200, class: "text-primary" %>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <h5 class="text-muted">
+                                    Address
+                                </h5>
+                                <p class="text-muted">
+                                    3113 E Lincoln Dr
+                                    <br>Phoenix, AZ 85016
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <h5 class="text-muted">
+                                    Contacts
+                                </h5>
+                                <p class="text-muted">
+                                    Email: juliavalentine@azmoves.com
+                                    <br>Phone: 602 (515-9287)
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <h5 class="text-muted">
+                                    Links:
+                                    <br><br><%= link_to "Julia-coldwellbanker.com", "https://www.coldwellbanker.com/Residential-Brokerage_Administration-12609c/Julia-Valentine-498415a" %>
+                                    <br><br><%= link_to "coldwellbankerhomes.com", "https://www.coldwellbankerhomes.com/az/phoenix/agent/astria-julia-valentine/aid_43887/" %>
+                                    <br><br><%= link_to "http://juliavalentine.cbintouch.com/", "http://juliavalentine.cbintouch.com/" %>
+                                    <br><br><%= link_to "Tabitha-coldwellbanker.com", "https://www.coldwellbanker.com/Residential-Brokerage_Administration-12609c/Tabitha-Valentine-498371a" %>
+                                    <br><br><%= link_to "coldwellbankerhomes.com", "https://www.coldwellbankerhomes.com/az/phoenix/agent/tabitha-valentine/aid_35493/" %>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 copyright">
+                                    <p class="text-muted">
+                                        © Copyright 2017 Mark Morales - All Rights Reserved
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="container">
+                                         <ul class="list-inline list-social">
+                                                <li>
+                                                    <a href="https://www.linkedin.com/in/mark-morales-132961138/">
+                                                        <i><%=fa_icon "linkedin" %></i>
+                                                    </a>
+                                                <li class="">
+                                                    <a href="#">    
+                                                        <i><%= fa_icon "facebook" %></i>
+                                                    </a>        
+                                                </li>
+                                                <li class="">
+                                                    <a href="#">    
+                                                        <i><%=fa_icon "instagram" %></i>
+                                                    </a>        
+                                                </li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     </section>
