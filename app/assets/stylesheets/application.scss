@@ -611,44 +611,7 @@ main {
   width: 100%;
 }
 
-.hsContainer {
-  display: table;
-  table-layout: fixed;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
 
-.hsContent {
-  max-width: 450px;
-  margin: -150px auto 0 auto;
-  display: table-cell;
-  vertical-align: middle;
-  color: #ebebeb;
-  padding: 0 8%;
-  text-align: center;
-}
-  .hsContent h2
-  .copy h2 {
-    color: #ffffff;
-    font-size: 45px;
-    line-height: 48px;
-    margin-bottom: 12px;
-  }
-  .hsContent p {
-    width: 400px;
-    margin: 0 auto;
-    color: #b2b2b2;
-  }
-  .hsContent a {
-    color: #b2b2b2;
-    text-decoration: underline;
-  }
-  .bgBlack {
-    background-color: rgba(0,0,0,0.75);
-    padding: 3px 10px;
-  }
 #slide-1 {
   background-image:url('bg.jpg');
   background-position: center center;
@@ -667,11 +630,7 @@ main {
   background-color: #010101;
   height: 310px;
   text-align: center;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100%;
+
 }
 #slide-2 .hsContent {
   margin-left: -450px;
@@ -686,14 +645,6 @@ main {
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
-}
-#slide-3 .inner {
-  padding: 100px;
-}
-
-#slide-3 .content {
-  padding: 20px;
-  color: black;
 }
 
 .curtainContainer {
@@ -719,6 +670,17 @@ main {
 }
 
 #slide-4 {
+  background: none;
+  background-color: #010101;
+  height: 310px;
+  text-align: center;
+}
+#slide-4 .hsContent {
+  margin-left: -450px;
+  top: auto;
+}
+
+#slide-5 {
   background-image:url("kitchen.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -727,13 +689,13 @@ main {
   width: 100%;
 }
 
-#slide-5 {
+#slide-6 {
   position: relative;
 }
-#slide-5 {
+#slide-6 {
   background-image:url("cottage.jpeg");
 }
-#slide-5 .bcg2 {
+#slide-6 .bcg2 {
   background-image:url("england.jpeg");
   position: fixed;
   bottom: 0;
@@ -741,7 +703,7 @@ main {
   opacity: 0;
   z-index: 1;
 }
-#slide-5 .bcg3 {
+#slide-6 .bcg3 {
   background: none;
   background-color: #EBFFFF;
   position: fixed;
@@ -751,23 +713,49 @@ main {
   z-index: 2;
 }
 
+.hsContainer {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.hsContent {
+  max-width: 450px;
+  margin: -150px auto 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+  color: #ebebeb;
+  padding: 0 8%;
+  text-align: center;
+}
+  .hsContent h2,
+  .copy h2 {
+    color: #ffffff;
+    font-size: 45px;
+    line-height: 48px;
+    margin-bottom: 12px;
+  }
+  .hsContent p {
+    width: 400px;
+    margin: 0 auto;
+    color: #b2b2b2;
+  }
+  .hsContent a {
+    color: #b2b2b2;
+    text-decoration: underline;
+  }
+  .bgBlack {
+    background-color: rgba(0,0,0,0.75);
+    padding: 3px 10px;
+  }
+
 .slogan-text {
   fotn-size: 2em;
   
 }
 
-h1 {
-  height: 100%;
-  margin: 0;
-  font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
-  color: #1c1d1e;
-  margin-bottom: 3px;
-}
 
-h2 {
-  color: #1c1d1e;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-}
 

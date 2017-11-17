@@ -6,6 +6,8 @@
   // Setup variables
   $window = $(window);
   $slide = $('.homeSlide');
+  $slideTall = $('.homeSlideTall');
+	$slideTall2 = $('.homeSlideTall2');
   $body = $('body');
   
   // FadeIn all sections
