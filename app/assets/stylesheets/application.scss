@@ -627,10 +627,14 @@ main {
 
 #slide-2 {
   background: none;
-  background-color: #010101;
+  background-color: #FFF;
   height: 310px;
   text-align: center;
 
+}
+
+#slide-2 h2 {
+  color: black;
 }
 #slide-2 .hsContent {
   margin-left: -450px;
@@ -645,6 +649,23 @@ main {
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
+}
+
+#slide-3 plaxEl {
+  opacity: 0.87408;
+  position: fixed;
+  top: 306px;
+  width: 100%;
+  left: 10px;
+  
+}
+
+#slide-3 h2 {
+  color: black;
+}
+
+#slide-3 h3 {
+  color: black;
 }
 
 .curtainContainer {
@@ -671,7 +692,7 @@ main {
 
 #slide-4 {
   background: none;
-  background-color: #010101;
+  background-color: #FFF;
   height: 310px;
   text-align: center;
 }
@@ -680,8 +701,12 @@ main {
   top: auto;
 }
 
+#slide-4 h2 {
+  color: black;
+}
+
 #slide-5 {
-  background-image:url("kitchen.jpeg");
+  background-image:url("fountain_hills_resort.JPG");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -693,7 +718,7 @@ main {
   position: relative;
 }
 #slide-6 {
-  background-image:url("cottage.jpeg");
+  background-image:url(".jpeg");
 }
 #slide-6 .bcg2 {
   background-image:url("england.jpeg");
@@ -748,7 +773,8 @@ main {
     text-decoration: underline;
   }
   .bgBlack {
-    background-color: rgba(0,0,0,0.75);
+    color: black;
+    top: 75px;
     padding: 3px 10px;
   }
 
