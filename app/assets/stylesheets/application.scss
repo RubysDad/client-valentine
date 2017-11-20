@@ -635,7 +635,14 @@ main {
 
 #slide-2 h2 {
   color: black;
+  font-size: 20px;
+  font-weight: bold;
 }
+
+#slide-2 .hsContainer {
+  top: -20px;
+}
+
 #slide-2 .hsContent {
   margin-left: -450px;
   top: auto;
@@ -643,6 +650,17 @@ main {
 
 #slide-2 p {
   color: black;
+  font-size: 15px;
+}
+
+.ds-1 {
+  margin-top: 0px;
+  font-size: 5px;
+}
+
+.key-pic {
+  float: right;
+  padding-left: 100px;
 }
 
 
