@@ -641,6 +641,10 @@ main {
   top: auto;
 }
 
+#slide-2 p {
+  color: black;
+}
+
 
 #slide-3 {
   background-image:url("slogan-paper.jpg");
@@ -705,6 +709,10 @@ main {
   color: black;
 }
 
+#slide-4 p {
+  color: black;
+}
+
 #slide-5 {
   background-image:url("fountain_hills_resort.JPG");
   background-position: center center;
@@ -715,12 +723,33 @@ main {
 }
 
 #slide-6 {
+  background: none;
+  background-color: #FFF;
+  height: 310px;
+  text-align: center;
+
+}
+
+#slide-6 h2 {
+  color: black;
+}
+
+#slide-6 .hsContent {
+  margin-left: -450px;
+  top: auto;
+}
+
+#slide-6 p {
+  color: black;
+}
+
+#slide-7 {
   position: relative;
 }
-#slide-6 {
-  background-image:url(".jpeg");
+#slide-7 {
+  background-image:url("england.jpeg");
 }
-#slide-6 .bcg2 {
+#slide-7 .bcg2 {
   background-image:url("england.jpeg");
   position: fixed;
   bottom: 0;
@@ -728,7 +757,7 @@ main {
   opacity: 0;
   z-index: 1;
 }
-#slide-6 .bcg3 {
+#slide-7 .bcg3 {
   background: none;
   background-color: #EBFFFF;
   position: fixed;
@@ -752,7 +781,7 @@ main {
   margin: -150px auto 0 auto;
   display: table-cell;
   vertical-align: middle;
-  color: #ebebeb;
+  color: black;
   padding: 0 8%;
   text-align: center;
 }
@@ -779,8 +808,14 @@ main {
   }
 
 .slogan-text {
-  fotn-size: 2em;
+  font-size: 2em;
   
+}
+
+.list-social li {
+  float: right;
+  display: inline-block;
+  font-size: 45px;
 }
 
 
