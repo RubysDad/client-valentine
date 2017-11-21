@@ -612,6 +612,7 @@ main {
 }
 
 
+
 #slide-1 {
   background-image:url('bg.jpg');
   background-position: center center;
@@ -633,10 +634,17 @@ main {
 
 }
 
+#slide-2 .inner {
+  padding: 100px;
+}
+
+#slide-2 .content {
+  padding: 20px;
+}
 #slide-2 h2 {
   color: black;
   font-size: 20px;
-  font-weight: bold;
+
 }
 
 #slide-2 .hsContainer {
@@ -725,10 +733,15 @@ main {
 
 #slide-4 h2 {
   color: black;
+  font-size: 20px;
+  top: 0;
 }
 
-#slide-4 p {
+#slide-4 .hsContent p {
   color: black;
+  right: 200px;
+  font-size: 15px;
+  padding-bottom: 200px;
 }
 
 #slide-5 {
