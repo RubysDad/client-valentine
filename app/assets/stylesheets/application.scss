@@ -474,7 +474,8 @@ body {
 
 #form {
     padding: 50px 0;
-    background-color: #F8F9FB;
+    background-image:url("off-white-bg.jpeg");
+    
 }
 
 #callout {
@@ -656,9 +657,10 @@ main {
   top: auto;
 }
 
-#slide-2 p {
+#slide-2 .hsContent p {
   color: black;
   font-size: 15px;
+  right: 50px;
 }
 
 .ds-1 {
@@ -778,10 +780,8 @@ main {
   position: relative;
 }
 #slide-7 {
-  background-image:url("england.jpeg");
 }
 #slide-7 .bcg2 {
-  background-image:url("england.jpeg");
   position: fixed;
   bottom: 0;
   left: 0;
@@ -843,11 +843,26 @@ main {
   
 }
 
+#slide-9 {
+  background-image:url("england.jpeg");
+}
+
 .list-social li {
   float: right;
   display: inline-block;
   font-size: 45px;
 }
+
+.map {
+    height: 600px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
 
 
 
