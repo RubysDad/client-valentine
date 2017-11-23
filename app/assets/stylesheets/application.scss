@@ -630,21 +630,30 @@ main {
 #slide-2 {
   background: none;
   background-color: #FFF;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
   height: 310px;
-  text-align: center;
+  
 
 }
 
 #slide-2 .inner {
-  padding: 100px;
+  padding: -100px;
+
 }
 
 #slide-2 .content {
-  padding: 20px;
+  padding: 0px;
+ 
 }
 #slide-2 h2 {
   color: black;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 3em;
+  padding-left: 120px;
 
 }
 
@@ -657,10 +666,16 @@ main {
   top: auto;
 }
 
-#slide-2 .hsContent p {
+#slide-2 .content p {
   color: black;
-  font-size: 15px;
-  right: 50px;
+  font-size: 20px;
+  padding-left: 120px;
+  padding-top: 10px;
+}
+
+.iphone-pic {
+ right: 50px;
+  
 }
 
 .ds-1 {
