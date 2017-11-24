@@ -678,6 +678,10 @@ main {
   
 }
 
+.number {
+  padding-right: 300px;
+}
+
 .ds-1 {
   margin-top: 0px;
   font-size: 5px;
@@ -740,18 +744,35 @@ main {
 #slide-4 {
   background: none;
   background-color: #FFF;
-  height: 310px;
+
+  background-size: cover;
+  width: 100%;
+  height: 450px;
   text-align: center;
+  top: 0;
+  padding-bottom: 50px;
+}
+
+#slide-4 .inner {
+  padding: -100px;
+
+}
+
+#slide-4 .content {
+  padding: 0px;
+  top: 0;
+ 
+}
+#slide-4 h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: 3em;
+
+
 }
 #slide-4 .hsContent {
   margin-left: -450px;
   top: auto;
-}
-
-#slide-4 h2 {
-  color: black;
-  font-size: 20px;
-  top: 0;
 }
 
 #slide-4 .hsContent p {
@@ -759,6 +780,23 @@ main {
   right: 200px;
   font-size: 15px;
   padding-bottom: 200px;
+}
+
+#slide-4 .content p {
+  color: black;
+  font-size: 20px;
+  padding-left: 120px;
+  padding-top: 0px;
+  padding-bottom: 500px;
+}
+
+.portfolio-item {
+  top: 0;
+}
+
+#slide-4 .content .team {
+  text-align: center;
+
 }
 
 #slide-5 {
@@ -858,12 +896,58 @@ main {
   
 }
 
+#slide-8 {
+  background: none;
+  background-color: #FFF;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 310px;
+  
+
+}
+
+#slide-8 .inner {
+  padding: -100px;
+
+}
+
+#slide-8 .content {
+  padding: 0px;
+ 
+}
+#slide-8 h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: 3em;
+  padding-left: 120px;
+
+}
+
+#slide-8 .hsContainer {
+  top: -20px;
+}
+
+#slide-8 .hsContent {
+  margin-left: -450px;
+  top: auto;
+}
+
+#slide-8 .content p {
+  color: black;
+  font-size: 20px;
+  padding-left: 120px;
+  padding-top: 10px;
+}
+
 #slide-9 {
   background-image:url("england.jpeg");
 }
 
 .list-social li {
-  float: right;
+
   display: inline-block;
   font-size: 45px;
 }
