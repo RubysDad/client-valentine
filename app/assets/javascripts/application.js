@@ -17,7 +17,7 @@
 //= require _main
 //= require jquery.easing
 //= require popper
-//= require lib/modernizr
+//= require modernizr
 //= require turbolinks
 //= require nav
 //= require_tree .
