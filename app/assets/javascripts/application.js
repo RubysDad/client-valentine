@@ -16,6 +16,7 @@
 //= require imagesloaded
 //= require _main
 //= require jquery.easing
+//= require lib/enquire
 //= require popper
 //= require modernizr
 //= require turbolinks

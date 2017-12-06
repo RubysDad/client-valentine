@@ -628,6 +628,13 @@ main {
   top: auto;
 }
 
+#slide-1 .hsContent .card {
+  color: #FFF;
+  border-style: solid;
+  border-width: 1px;
+  background: transparent;
+  top: 25px;
+}
 #slide-2 {
   background: none;
   background-color: #FFF;
@@ -991,7 +998,4 @@ main {
         height: 75%;
     }
 }
-
-
-
 
